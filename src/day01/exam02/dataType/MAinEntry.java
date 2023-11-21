@@ -1,4 +1,4 @@
-package ex02.dataType;
+package day01.exam02.dataType;
 
 public class MAinEntry {
     public static void main(String[] args) { // 시작점(진입점)

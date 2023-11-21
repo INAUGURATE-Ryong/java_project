@@ -1,4 +1,4 @@
-package ex02.dataType;
+package day01.exam02.dataType;
 
 public class DataType {
     public static void main(String[] args){
@@ -13,8 +13,8 @@ public class DataType {
         int oNum = 011; // 8진수 (0 숫자)
         int bNum = 0B1010; // 2진수  (ob숫자)
 
-        System.out.printf("%x %X \n",10,10);  // 10진수, 10진수를 16진수로
-        System.out.printf("%x %o \n",10,10);  // 10진수, 10진수를 8진수로
+        System.out.printf("%x %X \n",10,10);  // 10진수를 16진수로
+        System.out.printf(" %o \n",10);  // 10진수를 8진수로
 
     }
 }
