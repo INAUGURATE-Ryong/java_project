@@ -15,6 +15,13 @@ public class Quiz03 {
                 sum1 +=j;
             }
         }
+
+        int result = 0, total_result=0;
+        for(int i = 1;i<=5;i++){
+            result +=i;
+            total_result +=result;
+        }
+        System.out.println(total_result);
         System.out.println(sum1);
         System.out.println("++++++++++++++++++++++++++++");
 
@@ -82,3 +89,37 @@ public class Quiz03 {
         }
     }
 }
+/* [2번문제]
+	//System.out.println("num = ");
+		//int num = new Scanner(System.in).nextInt();
+		int num = 10;
+
+		if (num % 2 == 1) { // note 홀수
+			int return_val = -(num / 2) - 1;
+			System.out.println(return_val);
+		} else {
+			System.out.println( num / 2 );
+		}
+ */
+
+
+/* [4번문제]
+System.out.printf("3개의 숫자를 입력하세요: ");
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();		int b = sc.nextInt();		int c = sc.nextInt();
+
+		int min, max, mid;
+
+		if(a>b)	{
+			max = (a>c) ? a : c;
+			min = (b>c) ? c : b;
+			mid = (max!=a  && min!=a)? a :
+										  (max!=b  && min!=b) ? b : c;
+		} else {
+			max = (b>c) ? b : c;
+			min = (a>c) ? c : a;
+			mid = (max!=a  && min!=a)? a : (max!=b  && min!=b) ? b : c;
+		} // if end
+
+		System.out.println( max + " > " + mid + " > " + min );
+ */
