@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArraySortTest {
     public static void main(String[] args) {
-        int[] a = {7, 3, 2, 5, 8};
+        int[] a = {7, 3, 2, 5, 8} ;
 
         System.out.println("******** sort 전 출력");
         for (int i = 0; i < a.length; i++) {
