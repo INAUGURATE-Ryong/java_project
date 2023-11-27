@@ -21,7 +21,7 @@ public class BubbleSort {
         }
         System.out.println("\n**************** sort 후 출력");
         for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + "\t");
+            System.out.print(a[i] + "\t") ;
         }
     }
 }
