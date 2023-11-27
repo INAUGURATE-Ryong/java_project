@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //3과목 입력 받고, 총점, 평균, 학점(if or switch) 구하기
 // do ~ while 을 이용해서 점수를 0~ 100점 까지만 입력할 수 있게 기능 추가
-// 7명의 3과목 입력받고, 총점, 평균, 학점 을 구하는데 배열을 활용하기
+// 7명의 3과목 입력받고, 총점, 평균, 학점 을 구하는데 배열을 활용하기(1차원배열)
 public class Score_dev1_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);  // 객체 생성, 메모리에 할당, 생성자 함수 자동 호출
