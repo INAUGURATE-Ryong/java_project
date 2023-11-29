@@ -1,4 +1,4 @@
-package quiz.inheritance;
+package day08.employ;
 import java.util.Scanner;
 
 public class MainEntry {

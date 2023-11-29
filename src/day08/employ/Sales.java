@@ -1,4 +1,4 @@
-package quiz.inheritance;
+package day08.employ;
 
 public class Sales extends Regular {
 	
