@@ -29,5 +29,5 @@ public class Circle {
 
     public void display(){
         System.out.println(x+", "+y+", "+r);
-    }
+    } // override method
 }
