@@ -1,4 +1,4 @@
-package quiz.Interface.ex01;
+package day09.quiz02_teacher;
 
 import java.util.Scanner;
 
