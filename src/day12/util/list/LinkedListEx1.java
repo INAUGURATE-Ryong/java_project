@@ -25,16 +25,16 @@ class  LinkedListEx1{
 		System.out.println(list);
 		list.set(3,list.get(1)+"change");
 		System.out.println(list);
-		String str1 = (String)list.peek();
+		String str1 = (String)list.peek();  // 리스트에 있는 데이터 꺼내오지만 리스트에 남아있음.
 		System.out.println("=====================");
 		System.out.println(str1);
 		System.out.println(list);
-		String str2 = (String)list.poll();
+		String str2 = (String)list.poll();  // 리스트에 있는 데이터 꺼내오고 리스트에서 지우기
 		System.out.println(str2);
 		System.out.println(list);
 		list.offer("a");
 		System.out.println(list);
-		String str3 = (String)list.remove();
+		String str3 = (String)list.remove();  // 리스트에 있는 데이터 꺼내오고 리스트에서 지우기
 		System.out.println(str3);
 		System.out.println(list);
 	}

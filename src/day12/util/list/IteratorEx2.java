@@ -17,20 +17,20 @@ public class IteratorEx2 {
 		while(it.hasNext()){
 			copy1.add(it.next());
 		}
-		System.out.println("= Original���� copy1�� ����(copy) =");		
+		System.out.println("= Original에서 copy1로 복사(copy) =");
 		System.out.println("original:"+original);
 		System.out.println("copy1:"+copy1);
 		System.out.println();
 
 		it = original.iterator();
-		
+
 		while(it.hasNext()){
 			copy2.add(it.next());
 			it.remove();
 		}
-		
-		System.out.println("= Original���� copy2�� �̵�(move) =");		
+
+		System.out.println("= Original에서 copy2로 이동(move) =");
 		System.out.println("original:"+original);
-		System.out.println("copy2:"+copy2);		
+		System.out.println("copy2:"+copy2);
 	} // main
 } // class
