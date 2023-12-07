@@ -1,4 +1,4 @@
-package day13.IO_2.BufferedReader;
+package day13.IO_2;
 
 import java.io.*;
 
