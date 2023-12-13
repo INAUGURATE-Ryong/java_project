@@ -1,6 +1,4 @@
-package day17.JdbcTest;
-
-import org.mariadb.jdbc.Driver;
+package day17.JDBCTest;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

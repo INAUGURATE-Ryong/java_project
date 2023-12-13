@@ -1,6 +1,5 @@
-package day17.JdbcTest;
+package day17.JDBCTest;
 
-import javax.xml.transform.Result;
 import java.sql.*;
 
 public class GiftSelect {
@@ -31,3 +30,5 @@ public class GiftSelect {
         conn.close();
     }
 }
+
+//SQL Query 구문, HTML Tag는 자바에서 문자열 취급
